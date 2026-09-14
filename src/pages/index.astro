@@ -55,7 +55,7 @@ const recipesBySection = SECTION_ORDER.map((section) => ({
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bruce's Breads — Sourdough So Good It's Almost Suspicious</title>
-  <link rel="canonical" href="https://www.bruces-breads.com/index.html" />
+  <link rel="canonical" href={Astro.url.href} />
   <link rel="stylesheet" href="/styles.css" />
   <style>
     nav a:hover { color: #5c4a37; }

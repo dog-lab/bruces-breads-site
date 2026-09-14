@@ -15,6 +15,7 @@ const { title } = Astro.props;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title} — Bruce's Breads</title>
+  <link rel="canonical" href={Astro.url.href} />
   <link rel="stylesheet" href="/styles.css" />
   <style is:global>
     /* is:global on purpose: the recipe content below (title block, hero,

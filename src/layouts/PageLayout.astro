@@ -20,6 +20,7 @@ const { title, subtitle } = Astro.props;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title} — Bruce's Breads</title>
+  <link rel="canonical" href={Astro.url.href} />
   <link rel="stylesheet" href="/styles.css" />
   <style>
     nav a:hover { color: var(--tomato); }
