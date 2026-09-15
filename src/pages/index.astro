@@ -13,20 +13,22 @@ const recentStories = stories.slice(0, 2);
 // tables aren't finished yet (see each stub page for why). Added here by
 // hand, one line per recipe, so they're still discoverable from the
 // homepage instead of only reachable through a Guides cross-link. Aug 15,
-// 2026 nav restructure.
-const comingSoon = [
-  { image: '/images/brioche-base/hero-card.jpg', title: 'Brioche Base', teaser: 'A stiff-starter enriched base, built for braids and butter alike.', href: '/recipes/brioche-base/' },
-  { image: '/images/laminated-pastry-base/hero-card.jpg', title: 'Laminated Pastry Base', teaser: 'A stiff-starter détrempe, folded and turned for a flaky, buttery crumb.', href: '/recipes/laminated-pastry-base/' },
-];
+// 2026 nav restructure. Empty as of Sept 15, 2026 -- Brioche Base and
+// Laminated Pastry Base both graduated to full recipes (Well Bread and
+// Build Block Butter) and their stub pages now point there directly, so
+// there's nothing left to tease here. The section below hides itself
+// automatically when this list is empty; add entries back the same way
+// if a future base recipe needs a "baking soon" placeholder again.
+const comingSoon: { image: string; title: string; teaser: string; href: string }[] = [];
 
 // Bread-type menu structure decided August 3, 2026 (see CLAUDE.md's
 // "Recipe menu structure (categories)"). Only sections that actually have
-// a published recipe get a heading -- Everyday Bakes stays deferred per
-// CLAUDE.md until there's enough content to justify its own grouping, and
-// the other empty sections (Enriched & Sweet, Pastry & Lamination,
-// Discards, Gluten Free) will pick up a heading automatically the moment
-// their first recipe (Orange Brioche, a discard focaccia, etc.) ships --
-// no template change needed then.
+// a published recipe get a heading -- an empty section just doesn't render,
+// so a still-empty section (Discards, Gluten Free) will pick up a heading
+// automatically the moment its first recipe ships, no template change
+// needed. Everyday Bakes is no longer deferred/empty as of Two Irons, One
+// Fire (Aug) and Breadwinner (Sept 15) -- update this note if CLAUDE.md's
+// "deferred" language for it hasn't been cleaned up too.
 const SECTION_ORDER = [
   'classics',
   'enriched-sweet',
