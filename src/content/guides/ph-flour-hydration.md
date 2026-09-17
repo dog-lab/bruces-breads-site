@@ -4,7 +4,7 @@ subtitle: "The Four Levers"
 order: 5
 ---
 
-*Part of the Bruce's Breads guide collection. See also: [Proofing and Shaping](/guides/proofing-and-shaping), [Braiding](/guides/braiding), [Flour Types and Blending](/guides/flour-types-and-blending), [Salt](/guides/salt-timing-and-gluten), and the Starter Guide: [Creating a Starter](/guides/starter/creating-a-starter), [Maintaining a Starter](/guides/starter/maintaining-a-starter), [Starter Types and Flours](/guides/starter/starter-types-and-flours), [Starter vs. Levain](/guides/starter/starter-vs-levain).*
+*Part of the Bruce's Breads guide collection. See also: [Proofing and Shaping](/guides/proofing-and-shaping), [Braiding](/guides/braiding), [Flour Types and Blending](/guides/flour-types-and-blending), [Salt](/guides/salt-timing-and-gluten), [Discard](/guides/discard) — which leans on this guide's pH and temperature mechanics directly — and the Starter Guide: [Creating a Starter](/guides/starter/creating-a-starter), [Maintaining a Starter](/guides/starter/maintaining-a-starter), [Starter Types and Flours](/guides/starter/starter-types-and-flours), [Starter vs. Levain](/guides/starter/starter-vs-levain).*
 
 Almost every question a sourdough baker asks — why is my crumb tight, why did this loaf spread instead of rising, why isn't it sour enough, why is the inside gummy — traces back to four adjustable variables: how acidic the dough is, what flour it's built from, how much water it's carrying, and how warm it is while it ferments. The first three are set at the recipe level; the fourth is set (and reset) every hour of the bake, which makes it easy to underestimate and arguably the most powerful of the lot.
 

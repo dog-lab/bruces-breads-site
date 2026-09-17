@@ -4,7 +4,7 @@ subtitle: "The Quiet Fifth Lever"
 order: 9
 ---
 
-*Part of the Bruce's Breads guide collection. See also: [pH, Flour, Hydration, and Temperature](/guides/ph-flour-hydration) — the four levers salt quietly adjusts — plus [Flour Types and Blending](/guides/flour-types-and-blending) and the [Starter Guide](/guides/starter/creating-a-starter).*
+*Part of the Bruce's Breads guide collection. See also: [pH, Flour, Hydration, and Temperature](/guides/ph-flour-hydration) — the four levers salt quietly adjusts — plus [Flour Types and Blending](/guides/flour-types-and-blending), [Discard](/guides/discard) — which extends this guide's protease-and-acid mechanism to discard's much longer, unfed timeline — and the [Starter Guide](/guides/starter/creating-a-starter).*
 
 Salt is the ingredient everyone measures and nobody thinks about. It's typically 2% of the flour weight — a couple of teaspoons in a loaf — and yet it touches all four of the levers in the four-levers guide: how fast the flour drinks its water, how strong the gluten network gets, how long that network survives fermentation, and how fast the fermentation itself runs. It also, incidentally, makes bread taste like bread.
 
