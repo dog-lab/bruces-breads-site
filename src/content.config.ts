@@ -68,14 +68,34 @@ const recipes = defineCollection({
     // "Recipe menu structure (categories)") -- supersedes the earlier
     // savory/sweet/discards split. Classics vs. enriched-sweet is decided
     // by butter/milk dairy enrichment, not by whether the bake tastes sweet.
+    // 'discards' REMOVED Sept 17, 2026 -- see the `tags` field below for why.
+    // A recipe still gets exactly one section (its real home on the menu);
+    // "uses discard" is a cross-cutting property of the recipe, not a home
+    // for it, and forcing it into the enum meant a discard recipe had to
+    // choose between being findable as a discard recipe and living in its
+    // actual best-fit section (Proffle shipped under 'discards' when it's
+    // genuinely an Everyday Bake; Two Irons, One Fire is filed under
+    // 'everyday-bakes' and was never discoverable as a discard recipe at
+    // all). Proffle moved to 'everyday-bakes' the same day this changed.
     section: z.enum([
       'classics',
       'enriched-sweet',
       'pastry-lamination',
-      'discards',
       'gluten-free',
       'everyday-bakes',
     ]),
+    // General-purpose recipe tags, added Sept 17, 2026 -- same shape as the
+    // blog collection's `tags` field below, and the mechanism the "New tags
+    // (regional-southern, holiday tags)" TASKS.md line was waiting on.
+    // Freeform strings on purpose (Bruce's call): a new tag is just typed
+    // into a recipe's frontmatter, no schema edit required, matching how
+    // blog tags already work. First real tag is 'discard' (see /discards/,
+    // a hub page that lists every tagged recipe across all sections
+    // regardless of `section` above) -- 'regional-southern' and holiday
+    // tags (Halloween, etc.) can follow the same way once there are enough
+    // recipes to justify their own hub pages, no code change needed to add
+    // the tag itself.
+    tags: z.array(z.string()).default([]),
     // Matches the printable-extras PDF filenames in public/cards/, e.g.
     // "Banana-rama" -> Banana-rama_Recipe_Card.pdf. Deliberately its own
     // field rather than derived from the slug -- a couple of recipes'

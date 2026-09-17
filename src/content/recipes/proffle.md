@@ -2,7 +2,8 @@
 title: "Proffle"
 subtitle: "A discard Belgian waffle for the Ninja BW1001's vertical iron, with a Greek yogurt variant built for protein"
 heroImage: "/images/proffle/proffle_01_hero.jpg"
-section: "discards"
+section: "everyday-bakes"
+tags: ["discard"]
 publishDate: 2026-09-17
 cardFilePrefix: "Proffle"
 ddt: "n/a -- this is a leavened batter (baking powder/soda), not a fermented dough; no DDT target applies"

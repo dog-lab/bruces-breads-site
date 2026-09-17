@@ -19,6 +19,13 @@
 // guide across several passes and signed off. Blog went live Aug 16,
 // 2026 with its founding post (Sourdough and the San Francisco
 // Influence) -- slotted between Sami and Resources.
+//
+// Discards added Sept 17, 2026, right after Recipes -- the day "Discards"
+// stopped being a section on the homepage grid and became a `tags` value
+// instead (see content.config.ts and index.astro), this link is what
+// keeps discard recipes just as discoverable as they were as a section,
+// pointing to the new /discards/ hub page that rounds them all up
+// regardless of which real section they live in.
 ---
 <header>
   <div class="brand"><a href="/" aria-label="Bruce's Breads home"><img src="/logo.jpg" alt="Bruce's Breads logo" class="logo" /></a></div>
@@ -28,6 +35,7 @@
   </label>
   <nav>
     <a href="/#menu">Recipes</a>
+    <a href="/discards/">Discards</a>
     <a href="/guides/">Guides</a>
     <a href="/sami/">Sami</a>
     <a href="/blog/">Blog</a>

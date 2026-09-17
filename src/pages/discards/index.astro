@@ -1,0 +1,47 @@
+---
+// Discards hub -- added Sept 17, 2026, the day "Discards" stopped being a
+// homepage menu section (see content.config.ts and index.astro for the
+// full reasoning) and became a `tags` value instead. This page is the
+// replacement for what that section used to do: one place that rounds up
+// every discard-using recipe regardless of which real section it lives
+// in, so nothing is lost by dropping the section. Each card links back to
+// the recipe at its real published URL and names its actual section, so
+// a reader ends up exactly where they would have if Discards were still
+// a section -- just without forcing every discard recipe to live there.
+//
+// SECTION_LABELS below is a deliberate small duplicate of the map in
+// index.astro (this site's established pattern for page-local copies --
+// see the "Shared hub-page building blocks" comment in styles.css). If a
+// section is ever renamed, update both.
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+
+const SECTION_LABELS: Record<string, string> = {
+  'classics': 'The Classics',
+  'enriched-sweet': 'Enriched & Sweet',
+  'pastry-lamination': 'Pastry & Lamination',
+  'gluten-free': 'Gluten Free',
+  'everyday-bakes': 'Everyday Bakes',
+};
+
+const discardRecipes = (await getCollection('recipes'))
+  .filter((r) => r.data.tags.includes('discard'))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+---
+<PageLayout title="Discards" subtitle="Recipes that put your sourdough discard to work instead of the compost bin.">
+
+  <p>"Discard" is the portion of starter you'd otherwise throw away at a feeding -- still full of flavor and a little acidity, just not something you'd build a big, airy loaf out of. These recipes are built around that acidity and tang rather than fighting it: no bulk fermentation, no proofing, just real use for what usually goes down the drain. Each one below lives on the menu under its own best-fit section -- they're gathered here so they're easy to find in one place too.</p>
+
+  <div class="grid">
+    {discardRecipes.map((recipe) => (
+      <div class="card">
+        <img src={recipe.data.heroImage} alt={recipe.data.title} class="card-thumb" />
+        <h3>{recipe.data.title}</h3>
+        <p>{recipe.data.subtitle}</p>
+        <p><span class="tag-pill">{SECTION_LABELS[recipe.data.section] ?? recipe.data.section}</span></p>
+        <a href={`/recipes/${recipe.id}/`} class="recipe-link">View recipe &rarr;</a>
+      </div>
+    ))}
+  </div>
+
+</PageLayout>

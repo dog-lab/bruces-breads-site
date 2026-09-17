@@ -3,6 +3,7 @@ title: "Two Irons, One Fire"
 subtitle: "A sourdough discard Stroopwafel & Pizzelle, from one shared batter"
 heroImage: "/images/two-irons-one-fire/two-irons-one-fire_01_hero.jpg"
 section: "everyday-bakes"
+tags: ["discard"]
 publishDate: 2026-09-12
 cardFilePrefix: "Two_Irons_One_Fire"
 ddt: "n/a -- this is a leavened batter (baking powder/soda), not a fermented dough; no DDT target applies"

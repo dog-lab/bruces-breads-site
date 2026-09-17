@@ -24,16 +24,25 @@ const comingSoon: { image: string; title: string; teaser: string; href: string }
 // Bread-type menu structure decided August 3, 2026 (see CLAUDE.md's
 // "Recipe menu structure (categories)"). Only sections that actually have
 // a published recipe get a heading -- an empty section just doesn't render,
-// so a still-empty section (Discards, Gluten Free) will pick up a heading
+// so a still-empty section (Gluten Free) will pick up a heading
 // automatically the moment its first recipe ships, no template change
 // needed. Everyday Bakes is no longer deferred/empty as of Two Irons, One
 // Fire (Aug) and Breadwinner (Sept 15) -- update this note if CLAUDE.md's
 // "deferred" language for it hasn't been cleaned up too.
+//
+// 'discards' REMOVED from this list Sept 17, 2026, same day it was removed
+// from content.config.ts's section enum -- a recipe can use starter
+// discard from any section (Proffle is an Everyday Bake, future discard
+// flatbreads will be too), so "Discards" no longer works as a single home
+// on this grid. It's now a `tags` value instead, surfaced two ways: the
+// small "Discard-Friendly" pill on a recipe's own card below (wherever
+// that card already lives), and the dedicated /discards/ hub page (linked
+// from the nav) that rounds up every tagged recipe in one place regardless
+// of section.
 const SECTION_ORDER = [
   'classics',
   'enriched-sweet',
   'pastry-lamination',
-  'discards',
   'gluten-free',
   'everyday-bakes',
 ] as const;
@@ -41,7 +50,6 @@ const SECTION_LABELS: Record<string, string> = {
   'classics': 'The Classics',
   'enriched-sweet': 'Enriched & Sweet',
   'pastry-lamination': 'Pastry & Lamination',
-  'discards': 'Discards',
   'gluten-free': 'Gluten Free',
   'everyday-bakes': 'Everyday Bakes',
 };
@@ -241,6 +249,7 @@ const recipesBySection = SECTION_ORDER.map((section) => ({
             <img src={recipe.data.heroImage} alt={recipe.data.title} class="card-thumb" />
             <h3>{recipe.data.title}</h3>
             <p>{recipe.data.subtitle}</p>
+            {recipe.data.tags.includes('discard') && <p><span class="tag-pill">Discard-Friendly</span></p>}
             <a href={`/recipes/${recipe.id}/`} class="recipe-link">View recipe &rarr;</a>
           </div>
         ))}
