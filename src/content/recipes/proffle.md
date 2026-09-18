@@ -192,7 +192,11 @@ For Variant B specifically: mix everything before adding any milk, then assess a
 
 This unit stands vertically through the whole cook -- no flip or fold step. Use the Precision-Pour Cup to pour batter down into the top opening, filling until the batter mounds slightly above the top rather than underfilling -- this is a deep-pocket 1in Belgian waffle.
 
+<figure><img src="/images/proffle/proffle_05_pouring.jpg" alt="The included Precision-Pour Cup pouring batter down into the top opening of the vertical Ninja BW1001 waffle maker" /><figcaption>Photo courtesy of SharkNinja, used with permission.</figcaption></figure>
+
 The unit has 5 shade settings; in practice, shade setting 3 vs. 4 made hardly any visible difference on this batter, so don't overthink that dial -- it's a minor lever here, not a critical one. Expect roughly a 4-minute cook with an audible beep when done. Going past the beep isn't a problem on this iron -- it just keeps cooking and browning rather than burning or drying out abruptly.
+
+<figure><img src="/images/proffle/proffle_07_finished_waffle.jpg" alt="A finished, deep-pocketed golden waffle lifted from the open Ninja BW1001 with tongs" /><figcaption>Photo courtesy of SharkNinja, used with permission.</figcaption></figure>
 
 ### 4. Serve
 
