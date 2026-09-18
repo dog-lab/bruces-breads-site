@@ -7,12 +7,32 @@
 // namespaced "blog/<id>" so a post and a recipe sharing a slug can never
 // share a thread). Extend to Sami stories the same way if ever wanted --
 // just pass a stable, namespaced pageId so comments survive URL changes.
+//
+// Sept 18, 2026 -- re-synced against the embed snippet EchoThread's own
+// dashboard now generates for this site (confirmed live in Bruce's
+// account), which has drifted from what's below in three ways:
+//   1. <script> is missing `async`. Confirmed via network trace on the
+//      live Larraburu post: widget.js itself loads fine, but the second
+//      request it fires -- a hashed chunk like "widget.29a3b30019.js" --
+//      resolved against the *page's own URL* instead of cdn.echothread.io,
+//      producing a 503 (.../blog/<slug>/widget.<hash>.js instead of
+//      https://cdn.echothread.io/widget.<hash>.js). That's why the
+//      EchoThread dashboard showed the thread registering (12 threads
+//      detected) while the actual comment UI never rendered. Matching
+//      the dashboard's snippet (async added) is the fix.
+//   2. data-theme is no longer a CSS-variable name -- current schema is
+//      data-theme="light | dark | #hexcolor", with a separate
+//      data-theme-source attribute for pointing at a host CSS variable.
+//      "--color-bg" moved from data-theme to data-theme-source below.
+//   3. data-page-title is no longer a listed/supported attribute -- the
+//      pageTitle prop stays (harmless, could matter again later) but is
+//      no longer rendered onto the div.
 interface Props {
   pageId: string;
   pageTitle: string;
   pageUrl: string;
 }
-const { pageId, pageTitle, pageUrl } = Astro.props;
+const { pageId, pageUrl } = Astro.props;
 ---
 <section class="block" id="comments">
   <h2>Notes &amp; Comments</h2>
@@ -22,9 +42,8 @@ const { pageId, pageTitle, pageUrl } = Astro.props;
     data-api-key="aFOvvte2nkPp4GnUyZBVsMuZD8GV9M2y2i1R3AZSc3I"
     data-page-url={pageUrl}
     data-identifier={pageId}
-    data-page-title={pageTitle}
-    data-theme="--color-bg"
+    data-theme-source="--color-bg"
     data-accent-color="var(--tomato)"
   ></div>
-  <script src="https://cdn.echothread.io/widget.js"></script>
+  <script src="https://cdn.echothread.io/widget.js" async></script>
 </section>
