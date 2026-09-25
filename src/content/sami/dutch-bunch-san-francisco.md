@@ -66,12 +66,8 @@ That turned out to be an actual story. Cracker Barrel had swapped its old logo â
 
 "So maybe," Sami said, only half kidding, "we call the new recipe Crackle Barrel."
 
-"No," said Bruce, already shaking his head. "We lean into San Francisco. And tigers." He said it like it settled something, the way he says most things that settle something. "We're calling it Hidden Fogbank, Crackling Tiger."
+"No," said Bruce, already shaking his head. "We lean into San Francisco. And tigers." He said it like it settled something, the way he says most things that settle something. "We're calling it [Hidden Fogbank, Crackling Tiger](/recipes/hidden-fogbank-crackling-tiger)."
 
 "Why?" Sami asked.
 
 "Read the recipe when it comes out," Bruce said. "You'll see."
-
-<!-- LINK PENDING: once the Dutch Crunch recipe (working title "Hidden
-Fogbank, Crackling Tiger") is live, link the phrase above to its page,
-e.g. [Hidden Fogbank, Crackling Tiger](/recipes/hidden-fogbank-crackling-tiger) -->
