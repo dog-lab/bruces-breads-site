@@ -125,6 +125,11 @@ const recipes = defineCollection({
     // The "not precise lab figures, actual values shift with X" caveat
     // sentence that follows nutritionBasis on the website.
     nutritionCaveat: z.string().optional(),
+    // Major allergens ("Milk (butter)", "Wheat/Gluten", ...). Rendered as a
+    // "Contains" callout above the nutrition table (System Prompt R30).
+    // Keep in sync with the `allergens` list in build_cards.py. Use an
+    // empty array only if the recipe truly has no major allergens.
+    allergens: z.array(z.string()),
     nutritionFacts: z.array(nutritionFact),
     vitamins: z.array(vitaminEntry),
     nutritionNote: z.string().optional(),

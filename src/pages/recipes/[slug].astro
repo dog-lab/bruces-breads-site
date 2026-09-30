@@ -18,7 +18,7 @@ const {
   dough, hydrationSaltNote, inclusions, yieldNote,
   flatlayImage, flatlayAlt,
   nonstandardIngredients, nonstandardIngredientsNote,
-  nutritionBasis, nutritionCaveat, nutritionFacts, vitamins, nutritionNote,
+  allergens, nutritionBasis, nutritionCaveat, nutritionFacts, vitamins, nutritionNote,
   equipment, playlist, booksMovies,
 } = recipe.data;
 ---
@@ -89,6 +89,21 @@ const {
       )}
 
       <h3>Estimated Nutrition</h3>
+      <div class="allergen-box">
+        {allergens.length > 0 ? (
+          <>
+            <p class="allergen-head">&#9888; Contains</p>
+            <ul>
+              {allergens.map((a) => <li>{a}</li>)}
+            </ul>
+          </>
+        ) : (
+          <>
+            <p class="allergen-head">&#9888; Allergens</p>
+            <p>No major allergens (milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soybeans, sesame) in this recipe as written &mdash; always confirm against the labels of the specific brands you use.</p>
+          </>
+        )}
+      </div>
       <p><strong>Basis:</strong> {nutritionBasis}. {nutritionCaveat}</p>
       <table>
         <tr><th>Nutrient</th><th>Amount</th></tr>
@@ -158,3 +173,24 @@ const {
 
   </main>
 </RecipeLayout>
+
+<style>
+  .allergen-box {
+    border: 2px solid #d9503f;
+    border-radius: 6px;
+    background: rgba(217, 80, 63, 0.09);
+    padding: 0.6rem 0.9rem;
+    margin: 0.75rem 0 1rem;
+  }
+  .allergen-box p { margin: 0; }
+  .allergen-box .allergen-head {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.85em;
+    color: #b23a2c;
+    margin-bottom: 0.25rem;
+  }
+  .allergen-box ul { margin: 0; padding-left: 1.2rem; }
+  .allergen-box li { font-weight: 700; }
+</style>

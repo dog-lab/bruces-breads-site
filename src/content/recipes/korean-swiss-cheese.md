@@ -60,6 +60,10 @@ nonstandardIngredients:
     note: 'are mostly water. Added too early, they can macerate and turn a little bitter over a long bulk fermentation -- this recipe folds them in partway through bulk instead of at the very start, and keeps the quantity modest so they read as bright flecks rather than a soggy vegetable.'
 nutritionBasis: 'Estimated, USDA-derived -- per slice, 1/12 loaf, ~85 g'
 nutritionCaveat: 'Actual values shift with your specific cheese, gochujang brand, and bake time.'
+allergens:
+  - "Milk (Gruyère)"
+  - "Wheat/Gluten"
+  - "Soy (gochujang — most commercial brands; check label)"
 nutritionFacts:
   - label: Calories
     amount: ~200 kcal

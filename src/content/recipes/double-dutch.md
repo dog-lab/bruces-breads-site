@@ -55,6 +55,9 @@ nonstandardIngredients:
     note: "keep the cheese cold right up until it's folded in. Warm cheese smears through the dough instead of staying in distinct pockets, which costs you both texture and those nice melty pockets in the crumb."
 nutritionBasis: "Estimated, USDA-derived -- per slice, 1/12 loaf, ~83 g"
 nutritionCaveat: "Not precise lab figures; actual values shift with the specific olives and cheese used."
+allergens:
+  - "Milk (Gouda)"
+  - "Wheat/Gluten"
 nutritionFacts:
   - label: "Calories"
     amount: "~210 kcal"

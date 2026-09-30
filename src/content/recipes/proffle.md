@@ -69,6 +69,10 @@ nonstandardIngredients:
     note: "either light or dark works interchangeably by weight -- no perceptible flavor difference showed up in side-by-side testing, despite dark brown sugar's roughly double molasses content."
 nutritionBasis: "Estimated, USDA-derived -- per waffle, based on a 5-waffle yield per full batch, confirmed for both variants"
 nutritionCaveat: "Not precise lab figures; actual values shift with the specific Greek yogurt brand chosen for Variant B."
+allergens:
+  - "Wheat/Gluten"
+  - "Egg"
+  - "Milk (milk/yogurt and butter, both variants)"
 nutritionFacts:
   - label: "Calories -- Variant A (Milk)"
     amount: "~415 kcal"

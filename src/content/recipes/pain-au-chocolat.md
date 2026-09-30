@@ -66,6 +66,11 @@ nonstandardIngredients:
     note: "batons (sometimes sold as \"chocolate bâtonnets\" or \"chocolate pistoles for baking\") are shaped specifically to survive folding, rolling, and baking without melting into a puddle or burning through the dough -- a bar chopped into similar-sized sticks works as a substitute if batons aren't available locally, but expect a slightly messier finished cut."
 nutritionBasis: "Estimated, USDA-derived -- per pastry (9 pastries per batch)"
 nutritionCaveat: "These are estimated, USDA-derived figures, not precise lab values -- actual numbers will shift with your specific chocolate and butter brands, and with whether you use the cinnamon-sugar variant (add roughly 15-20 more calories and 4g more sugar per pastry for that version)."
+allergens:
+  - "Wheat/Gluten"
+  - "Milk"
+  - "Egg"
+  - "Soy (chocolate batons, brand-dependent)"
 nutritionFacts:
   - label: "Calories"
     amount: "~460 kcal"

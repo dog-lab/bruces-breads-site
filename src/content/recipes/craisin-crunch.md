@@ -56,6 +56,9 @@ nonstandardIngredients:
     note: "both pull water from the dough over time -- walnuts because their oils and rough surfaces compete for hydration, craisins because dried fruit is thirsty by nature. Both are folded in after initial gluten development rather than mixed in from the start, which keeps them from interfering with structure-building and keeps the walnuts from getting pulverized."
 nutritionBasis: "Estimated, USDA-derived -- per slice (16 slices per loaf)"
 nutritionCaveat: "These are estimated figures based on standard USDA ingredient data, not a lab analysis -- a reasonable planning guide, not a precise nutrition panel."
+allergens:
+  - "Wheat/Gluten"
+  - "Tree Nuts (walnuts)"
 nutritionFacts:
   - label: "Calories"
     amount: "~180 kcal"

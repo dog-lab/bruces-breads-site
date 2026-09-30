@@ -37,6 +37,8 @@ inclusions: []
 nonstandardIngredientsNote: "There's nothing nonstandard in this one -- that's the whole idea. If you're newer to sourdough, this is the recipe to really internalize dough feel, fermentation timing, and scoring before adding inclusions into the mix elsewhere."
 nutritionBasis: "Estimated, USDA-derived -- per slice, 1/12 loaf, ~71 g"
 nutritionCaveat: "Not precise lab figures; actual values shift with your specific flour brand."
+allergens:
+  - "Wheat/Gluten"
 nutritionFacts:
   - label: "Calories"
     amount: "~150 kcal"

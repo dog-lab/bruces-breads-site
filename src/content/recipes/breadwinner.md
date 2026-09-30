@@ -49,6 +49,10 @@ nonstandardIngredients:
     note: "same \"butter second\" logic as Well Bread -- building real gluten strength first, then working in softened butter in stages, gives a finer, more even crumb than creaming butter into the mix from the start."
 nutritionBasis: "Estimated, USDA-derived -- per slice (about 16 per loaf, ~66g)"
 nutritionCaveat: "These are estimated figures based on standard USDA ingredient data, not a lab analysis -- a reasonable planning guide, not a precise nutrition panel."
+allergens:
+  - "Wheat/Gluten"
+  - "Milk"
+  - "Egg"
 nutritionFacts:
   - label: "Calories"
     amount: "~180 kcal"

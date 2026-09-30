@@ -52,6 +52,10 @@ nonstandardIngredients:
     note: "the higher fat, lower water content matters here in a way it doesn't for most doughs on this site. A butter block with too much water is softer, tears through the dough more easily during rolling, and steams out weakly instead of creating sharp, distinct layers. Standard American butter (usually 80-81% fat) will work in a pinch, but this is the one substitution on this site genuinely worth avoiding if you can help it."
 nutritionBasis: "Estimated, USDA-derived -- per croissant (1/11 batch, ~106 g, unfilled)"
 nutritionCaveat: "Not precise lab figures -- actual values shift with your specific flour and butter brands, and obviously with whatever you eventually fill these with."
+allergens:
+  - "Wheat/Gluten"
+  - "Milk"
+  - "Egg"
 nutritionFacts:
   - label: "Calories"
     amount: "~410 kcal"

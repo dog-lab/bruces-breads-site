@@ -71,6 +71,9 @@ nutritionBasis: "Estimated, USDA-derived -- per slice, 1/12 loaf, ~79 g"
 nutritionCaveat: "Not precise lab figures; actual values shift with exact flour brands and bake time."
 flatlayImage: "/images/seed-spitters/02_ingredient_flatlay.jpg"
 flatlayAlt: "Ingredient flat-lay before mixing"
+allergens:
+  - "Wheat/Gluten"
+  - "Sesame"
 nutritionFacts:
   - label: "Calories"
     amount: "~180 kcal"

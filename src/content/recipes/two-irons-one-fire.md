@@ -68,6 +68,11 @@ nonstandardIngredients:
     note: "emulsions are more concentrated and heat-stable than extracts -- start lower and taste-adjust if substituting one for the other."
 nutritionBasis: "Estimated, USDA-derived -- per finished piece; stroopwafel and pizzelle given separately since one batch makes both"
 nutritionCaveat: "Not precise lab figures; actual values shift with your exact iron size and how generously the caramel is spread."
+allergens:
+  - "Wheat/Gluten"
+  - "Egg"
+  - "Milk (butter)"
+  - "Tree Nuts (only if using almond extract/emulsion instead of anise on the pizzelle side; emulsions vary by brand — check label)"
 nutritionFacts:
   - label: "Calories -- stroopwafel"
     amount: "~300 kcal"

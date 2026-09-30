@@ -61,6 +61,9 @@ nonstandardIngredients:
     note: "at 15% adds a nutty backbone and a bit more fiber without taking over the crumb's structure the way a higher percentage would."
 nutritionBasis: "Estimated, USDA-derived -- per slice, 12 slices per loaf"
 nutritionCaveat: "Actual values shift with your specific provolone, pepper size, and bake time."
+allergens:
+  - "Milk (provolone)"
+  - "Wheat/Gluten"
 nutritionFacts:
   - label: "Calories"
     amount: "~200 kcal"

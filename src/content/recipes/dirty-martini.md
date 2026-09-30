@@ -57,6 +57,8 @@ nonstandardIngredients:
     note: "releases moisture and aromatic oil as it's handled, which is why it's folded in gently near the end of mixing rather than run through a machine (more on this below)."
 nutritionBasis: "Estimated, USDA-derived -- per slice, 16 slices per loaf"
 nutritionCaveat: "Not precise lab values."
+allergens:
+  - "Wheat/Gluten"
 nutritionFacts:
   - label: "Calories"
     amount: "~145 kcal"

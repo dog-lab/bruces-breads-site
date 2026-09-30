@@ -56,6 +56,10 @@ nonstandardIngredients:
     note: "the topping's instant yeast isn't there to leaven the roll -- it's there to aerate the rice paste itself, so it bubbles and expands during the final proof. Rice flour has no gluten, so that aerated paste can't stretch the way a wheat dough would; instead, as the roll expands underneath it during baking, the dried paste cracks into the mottled pattern this bread is named for. No yeast in the topping, and you'd get a flat, dense crust instead of a cracked one."
 nutritionBasis: "Estimated, USDA-derived -- per roll (6 rolls per batch, ~175g raw dough each before baking loss)"
 nutritionCaveat: "Not precise lab figures -- actual values shift with your exact roll size and how heavy a hand you use with the rice paste. Dividing into 8 smaller rolls instead of 6 brings every figure down by roughly 25%. Figures here are calculated from an even six-way split of the total dough (~175g raw per roll on paper) -- in practice this sticky, buttery dough loses some weight to the bowl and your hands during mixing and shaping, so real portions tend to run smaller (150-155g raw, confirmed across two bake tests), meaning actual intake per roll runs a bit under what's listed here, not over."
+allergens:
+  - "Wheat/Gluten"
+  - "Milk"
+  - "Egg"
 nutritionFacts:
   - label: "Calories"
     amount: "~480 kcal"
@@ -82,7 +86,7 @@ vitamins:
     description: "a modest source of vitamin A."
   - ingredient: "Rice flour (topping)"
     description: "a trace source of manganese -- a minor contributor given how little topping lands on each roll."
-nutritionNote: "Contains: Milk (whole milk, butter), Eggs, Wheat/Gluten (bread flour, in both the tangzhong and the main dough). No other major allergens in this recipe as written -- always confirm against the labels of the specific brands used, and note that the rice-paste topping is gluten-free on its own even though the roll underneath it isn't."
+nutritionNote: "No other major allergens in this recipe as written -- always confirm against the labels of the specific brands used, and note that the rice-paste topping is gluten-free on its own even though the roll underneath it isn't."
 equipment:
   - "Small saucepan and whisk (for the tangzhong)"
   - "Plastic wrap (pressed directly onto the tangzhong's surface to stop a skin forming)"

@@ -47,6 +47,10 @@ nonstandardIngredients:
     note: "counting the eggs as roughly 75% water and the stiff starter's own water content, total liquid lands around 64% against the dough's true total flour (the 500g of straight flour plus the roughly 133g the starter itself contributes) -- low for a bread dough, which is normal for brioche, where richness comes from fat and egg rather than water."
 nutritionBasis: "Estimated, USDA-derived -- per slice or wedge, about 16 per loaf"
 nutritionCaveat: "Not precise lab figures; actual values shift with your specific ingredient brands."
+allergens:
+  - "Wheat/Gluten"
+  - "Milk (whole milk and butter)"
+  - "Eggs"
 nutritionFacts:
   - label: "Calories"
     amount: "~295 kcal"

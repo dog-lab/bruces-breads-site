@@ -52,6 +52,10 @@ nonstandardIngredients:
     note: "this recipe inherits the Brioche Base's stiff (45–50% hydration) starter rather than the site's standard 100%-hydration one -- see the [Starter Guide: Starter Types & Flours](/guides/starter/starter-types-and-flours/) for building one. Short version: a stiff starter favors mild lactic fermentation over sharp acetic, which plays nicer with all this butter and egg than a loose, acid-forward starter would."
 nutritionBasis: "Estimated, USDA-derived -- per slice, 16 slices per loaf, including the Sunshine Glaze"
 nutritionCaveat: "Not a lab analysis -- a reasonable planning guide rather than a precise nutrition panel. Skipping the glaze trims roughly 15–20 calories and 4g of sugar per slice."
+allergens:
+  - "Wheat/Gluten"
+  - "Milk (butter)"
+  - "Eggs"
 nutritionFacts:
   - label: "Calories"
     amount: "~310 kcal"
