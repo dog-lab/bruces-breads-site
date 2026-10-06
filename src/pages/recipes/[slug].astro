@@ -21,6 +21,19 @@ const {
   allergens, nutritionBasis, nutritionCaveat, nutritionFacts, vitamins, nutritionNote,
   equipment, playlist, booksMovies,
 } = recipe.data;
+
+// Frontmatter strings are plain text -- Astro only runs the Markdown body
+// through the Markdown renderer. Notes like "see the [Starter Guide](/guides/...)"
+// therefore showed up as literal bracket-and-paren text. This tiny helper
+// escapes the string, then turns [text](url) into a real link and *text*
+// into italics, for the few frontmatter fields that carry inline Markdown.
+const inlineMd = (s = '') =>
+  s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
 ---
 <RecipeLayout title={title}>
   <div class="recipe-title-block">
@@ -55,7 +68,7 @@ const {
           </tr>
         ))}
       </table>
-      {hydrationSaltNote && <p><strong>A note on hydration and salt:</strong> {hydrationSaltNote}</p>}
+      {hydrationSaltNote && <p><strong>A note on hydration and salt:</strong> <Fragment set:html={inlineMd(hydrationSaltNote)} /></p>}
 
       {inclusions.length > 0 && (
         <>
@@ -81,11 +94,11 @@ const {
       {nonstandardIngredients.length > 0 ? (
         <ul>
           {nonstandardIngredients.map((item) => (
-            <li><strong>{item.ingredient}:</strong> {item.note}</li>
+            <li><strong>{item.ingredient}:</strong> <Fragment set:html={inlineMd(item.note)} /></li>
           ))}
         </ul>
       ) : (
-        nonstandardIngredientsNote && <p>{nonstandardIngredientsNote}</p>
+        nonstandardIngredientsNote && <p set:html={inlineMd(nonstandardIngredientsNote)} />
       )}
 
       <h3>Estimated Nutrition</h3>
