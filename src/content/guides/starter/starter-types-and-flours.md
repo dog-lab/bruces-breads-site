@@ -31,6 +31,8 @@ A **stiff** starter looks different at peak. Mixed and shaped into a rough ball,
 
 A lower-hydration culture ferments more slowly and tends to favor yeast activity over the acid-producing bacteria that make a starter taste sour — practically, that means a milder flavor and a firmer, easier-to-manage mass. That combination matters for doughs where too much acidity or too much added liquid works against the goal: rich, butter-and-egg-heavy enriched doughs (brioche-style) and laminated doughs (croissant-style) both benefit from a starter that isn't fighting the dough's own structure or diluting a carefully balanced hydration. This is exactly the reasoning behind Bruce's stiff-starter preference for the site's Enriched & Sweet and Pastry & Lamination bases — see the note at the end of this page.
 
+A stiff starter may also stay stable longer when feedings get sparse. In a 2026 Belgian study, a firm wholemeal sourdough (dough yield 160, about 60% hydration, a little wetter than this site's 45–50%) kept its *F. sanfranciscensis* and *M. humilis* pairing through months of refreshing only every three weeks, while a semi-liquid one (dough yield 200) lost both organisms within 12 to 15 weeks. The two came from different bakeries with different routines, so it points the direction rather than proving the cause; the full details are in [Maintaining a Starter](/guides/starter/maintaining-a-starter).
+
 ### Converting your standing starter to a stiff one
 
 You don't need to maintain a second, permanently separate culture from scratch — a stiff starter is easy to build as an offshoot of the standard 100%-hydration starter this site already maintains:
@@ -100,3 +102,4 @@ The meta-lesson both sources agree on completely: whole grain drives vigor, whit
 - Maurizio Leo, *The Ultimate Sourdough Starter Guide*, The Perfect Loaf ([theperfectloaf.com/guides/sourdough-starter](https://www.theperfectloaf.com/guides/sourdough-starter/)) — liquid vs. stiff starter definitions and ripeness signs.
 - Maurizio Leo, *What is a Levain and How is it Different From a Starter?*, The Perfect Loaf ([theperfectloaf.com](https://www.theperfectloaf.com/what-is-a-levain-and-how-is-it-different-from-a-starter/)) — white flour's effect on buffering capacity and sourness.
 - Tom Cucuzza, *How to Create a Sourdough Starter*, The Sourdough Journey ([thesourdoughjourney.com](https://thesourdoughjourney.com)) — whole-grain flour rationale for creation.
+- Wardhana et al., *Stability of Fructilactobacillus sanfranciscensis-Maudiozyma humilis in industrial sourdough*, Applied Microbiology and Biotechnology, September 2, 2026 ([link.springer.com](https://link.springer.com/article/10.1007/s00253-026-14018-2)) — firm vs. semi-liquid starter stability under infrequent refreshment.
