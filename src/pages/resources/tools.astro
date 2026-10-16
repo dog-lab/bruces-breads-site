@@ -1,0 +1,14 @@
+---
+// Tools lives under Resources, not Guides (Bruce's call, Oct 16, 2026): the
+// list and its sources -- especially Amazon links -- change over time, so the
+// page is a living reference. Content is plain Markdown in
+// src/resources-content/tools.md so it stays easy to edit; it deliberately
+// sits outside src/content/ so it isn't picked up by a content collection.
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Content } from '../../resources-content/tools.md';
+---
+<PageLayout title="Tools" subtitle="What's on my counter, and why. A list that changes as the gear (and the links) do.">
+  <div class="guide-content">
+    <Content />
+  </div>
+</PageLayout>
