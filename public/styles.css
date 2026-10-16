@@ -270,7 +270,9 @@ footer .fine-print {
   text-align: left;
   padding: 10px 12px;
   border-bottom: 1px solid #eee0c8;
-  word-break: break-word;
+  /* overflow-wrap (not word-break) so the table layout reserves room for
+     whole words like "Salt" and only breaks a word when it truly can't fit */
+  overflow-wrap: break-word;
 }
 .guide-content th { background: var(--egg-wash); color: var(--dark-text); }
 .guide-content tr:last-child td { border-bottom: none; }
