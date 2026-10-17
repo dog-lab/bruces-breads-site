@@ -1,0 +1,14 @@
+---
+// Yeast Conversion lives under Resources (a living reference, like Tools).
+// Content is plain Markdown in src/resources-content/yeast-conversion.md,
+// deliberately outside src/content/ so it isn't picked up by a content
+// collection. Yeast figures on the page are flagged Sourced / Site / Starting
+// point -- keep those flags honest as Bruce test-bakes conversions.
+import PageLayout from '../../layouts/PageLayout.astro';
+import { Content } from '../../resources-content/yeast-conversion.md';
+---
+<PageLayout title="Yeast Conversion" subtitle="Swapping the levain for commercial yeast, or getting a little help from it.">
+  <div class="guide-content">
+    <Content />
+  </div>
+</PageLayout>
