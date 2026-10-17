@@ -77,11 +77,11 @@ The one thing you have to watch is dough temperature. A spiral mixer works only 
 
 A Danish dough whisk is a loop of heavy wire on a handle, and it does one thing very well: it moves through wet, sticky dough (and shaggy first mixes) without the dough climbing up it the way it climbs a spoon.
 
-The most important thing to check when choosing one isn't the length or the handle wood. It's **whether the whisk is sealed where the wire meets the handle.** An open junction there is a place for dough and moisture to creep in, and I don't want a bacteria factory setting up shop in the handle of my whisk. The one I settled on is sealed at that junction. I never owned the other two, but from their pictures they look sealed as well. The options I looked at:
+The most important thing to check when choosing one isn't the length or the handle wood. It's **whether the whisk is sealed where the wire meets the handle.** An open junction there is a place for dough and moisture to creep in, and I don't want a bacteria factory setting up shop in the handle of my whisk. The one I settled on is the Tovolo, which is sealed at that junction. I never owned the others below, but from their pictures they look sealed as well. The options I looked at:
 
+- [Tovolo stainless steel dough whisk](https://www.amazon.com/dp/B00Q3BJYHA) — the one I use and recommend, for the sealed handle junction.
 - [Brotform.com Danish Dough Whisk, Large](https://www.brotform.com/products/brotformdotcom-danish-dough-whisk-size-large?variant=18412771207) — 14 inches, stainless wire with a birch handle, made in Poland. It showed as sold out when I checked.
 - [Brod & Taylor Dough Whisk](https://brodandtaylor.com/collections/all/products/dough-whisk) — 13.5 inches, extra-thick stainless wire with a non-slip silicone handle.
-- [A plain stainless steel wire whisk](https://www.amazon.com/dp/B00Q3BJYHA) — the simple alternative.
 
 ### Spatulas and starter spoons
 
@@ -194,7 +194,7 @@ I was introduced to [Epicurean boards](https://epicurean.com/collections/cutting
 
 ### Pizza cutter
 
-A pizza wheel does double duty on focaccia and flatbreads, and it's also an easy way to cut strips of laminated dough. I've looked at two: the [OXO steel pizza wheel](https://www.oxo.com/oxo-steel-pizza-wheel.html) and the [Mercer Millennia 4" pizza cutter](https://www.mercerculinary.com/product/millennia-pizza-cutter-4-10-2-cm-white/).
+A pizza wheel does double duty on focaccia and flatbreads, and it's also an easy way to cut strips of laminated dough. I own both of these: the [OXO steel pizza wheel](https://www.oxo.com/oxo-steel-pizza-wheel.html) and the [Mercer Millennia 4" pizza cutter](https://www.mercerculinary.com/product/millennia-pizza-cutter-4-10-2-cm-white/). I reach for the OXO because it's stainless steel, which makes it easier to clean. The Mercer's big point in its favor is that it has replaceable cutter wheels.
 
 ---
 
