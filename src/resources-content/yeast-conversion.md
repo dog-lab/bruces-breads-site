@@ -20,6 +20,8 @@ Two notes on that table. First, the sources disagree slightly at the edges: King
 
 **The practical rule: weigh your yeast.** A packet is about 7 g (2¼ tsp), which makes a level teaspoon of instant roughly 3 g. Small yeast amounts are the ones where measuring spoons let you down most, and the percentages below are small. If you don't have a scale that reads to 0.1 g, the [Tools page](/resources/tools/) explains why one is worth owning.
 
+**A note on yeast age.** Instant yeast keeps far longer in the freezer than in the pantry. The tested Well Bread bakes on this site used a jar that was nearly two years old, kept frozen and brought out only for use, and it fermented vigorously. If yours is fresh, it may run a little faster than the times given here, so watch the dough rather than the clock. If you aren't sure how old yours is, proof a pinch in warm water (105–110°F) with a little sugar; it should foam within about ten minutes.
+
 ---
 
 ## Part 2: Backing Out the Levain
