@@ -2,7 +2,7 @@
 
 The recipes on this site are built around a levain, but there are perfectly good reasons to reach for commercial yeast instead: your starter is sulking, you don't have one on hand, you're baking on a deadline, or you're feeding someone who finds real sourdough tang a bit much. Swapping is easy to do and surprisingly easy to do *badly*, because a levain isn't just a leavening agent. It's also flour, water, acid, and flavor, and each of those has to be accounted for when it leaves the building.
 
-This page covers both directions of the trade: a **full swap** (no levain at all) and a **hybrid** (a little yeast working alongside the levain). The math is exact; the yeast amounts are starting points. Each yeast figure below is marked **Sourced** (it traces to a published recipe or reference), **Site** (it's what the site's own recipes already do), or **Starting point** (a reasonable place to begin that hasn't been test-baked on this site). Kitchens, flours, and yeast brands vary, so treat every number as the first draft of your own formula.
+This page covers both directions of the trade: a **full swap** (no levain at all) and a **hybrid** (a little yeast working alongside the levain). The math is exact; the yeast amounts are starting points. Each yeast figure below is marked **Sourced** (it traces to a published recipe or reference), **Site** (it's what the site's own recipes already do), or **Starting point** (a reasonable place to begin that hasn't been test-baked on this site), or **Tested** (baked here, with the result noted). Kitchens, flours, and yeast brands vary, so treat every number as the first draft of your own formula.
 
 ---
 
@@ -68,10 +68,12 @@ The dough is the same dough: 550 g of flour, 400 g of water, 72.7% hydration. No
 | Sugar | 50 g | 50 g |
 | Salt | 10 g | 10 g (still 1.6% of the true total flour, same as before) |
 | Butter, softened | 250 g | 250 g |
-| Instant yeast | 3 g (optional insurance) | **about 9.5 g (1.5%)**, a starting point |
+| Instant yeast | 3 g (optional insurance) | **about 9.5 g (1.5%)**, **Tested** (October 2026) |
 | **Total dough weight** | about 1,410 g | about 1,420 g |
 
 Two things to notice. The butter, sugar, and eggs don't change, because only the levain's own flour and water move. And the yeast goes from a 3 g insurance policy to a 9.5 g engine, which brings us to the question of how much is enough.
+
+The full-swap formula makes about 1,420 g of dough. That suits the Halo Pro's minimum, but it is a lot for one standard loaf pan; A test with a 10-cup bundt-pan bakes rose just above the rim.
 
 ---
 
@@ -85,7 +87,7 @@ Yeast amounts are written as a percentage of *total flour* (the straight flour p
 | Lean, long and cool (12–18 hours) | **about 0.25%** | **Sourced.** Jim Lahey's no-knead formula: 1 g instant yeast in 400 g of flour, risen 12–18 hours. |
 | Lean, cold retard in the refrigerator | **0.1–0.3%**, adjusted by how long you retard | **Starting point.** Extrapolated from the long-and-cool figure; refrigerator temperature varies, so adjust to your own. |
 | Whole-grain heavy | Start at the **low end** of the lean range | **Starting point.** Whole grains ferment faster, and the site already drops DDT to 75°F for them. |
-| Enriched (about 8–10% sugar, 40–50% butter) | **1.5–3%** | **Sourced anchor, starting point for the number.** King Arthur's brioche uses 1 tablespoon (about 9 g) of instant yeast on 330 g of flour, which is about 2.8%. |
+| Enriched (about 8–10% sugar, 40–50% butter) | **1.5%** for an overnight retard; **[1.5–1.7%]** for same-day | **Tested.** Well Bread, full swap, October 2026: 1.5% worked well on an overnight retard. 2.0% on a same-day schedule also worked but ran fast, so back off a little. King Arthur's brioche, a different formula, uses about 2.8%. |
 | Laminated détrempe | **1–1.5%** | **Starting point.** The site's laminated recipes use 0.8% as insurance alongside a levain; a full swap needs more, but not much more, since laminated dough does most of its rising after the butter goes in. |
 
 When in doubt, start low. Too little yeast costs you time; too much costs you flavor and, in a laminated dough, a butter-soaked puddle in the oven.
@@ -102,6 +104,8 @@ A yeast dough runs on a very different clock from a levain dough. Commercial yea
 | Hybrid lean sourdough with 1–2 tsp yeast per 600 g flour | About 1½ hours | About 1 hour | **Sourced** (King Arthur's rustic sourdough recipe) |
 | Lean, 0.25% yeast | 12–18 hours | 1–2 hours | **Sourced** (Lahey) |
 | Enriched, full swap | 1 hour at room temperature, then overnight in the refrigerator | About 2½–3 hours | **Sourced** (King Arthur brioche) |
+| Well Bread, full swap, 1.5%, overnight retard | Almost 90 minutes at room temperature, then 12–16 hours in the refrigerator | [your final proof time] | **Tested** (October 2026) |
+| Well Bread, full swap, 2.0%, same day | Under 90 minutes at room temperature, then a 4-hour retard | [your final proof time] | **Tested** (October 2026). It ran fast; pull it by the aliquot jar, not the clock. |
 | For comparison: a levain loaf at 18% levain, 78–80°F | About 4 hours | About 2–4 hours | **Sourced** (Brod & Taylor) |
 
 Judge readiness the same way you always have: by the dough, not the clock. The [aliquot jar](/resources/tools/) works exactly as well on a yeast dough as on a sourdough one, and it's the best way to find out whether *your* kitchen runs fast or slow.
@@ -115,6 +119,8 @@ Here's the honest trade. The acids that give sourdough its tang are made by the 
 - **Slow it down on purpose.** A very small amount of yeast and a long, cool fermentation (the Lahey approach in Part 3) builds far more flavor than the same loaf made in two hours. This is the single biggest lever.
 - **Use a yeasted pre-ferment.** A poolish (equal parts flour and water with a pinch of yeast, left to ferment) gives you the same time-for-flavor trade in a different form. One published example uses a pinch of yeast in the poolish and about 0.6% in the final mix.
 - **Keep a little levain or discard in the dough.** This is the hybrid approach from Part 6: even a small amount of ripe starter contributes the acid and aroma, while the yeast handles the lifting. See the [Discard guide](/guides/discard) for ideas on putting it to work. *(Starting point: this is sound baking logic, but the amount of levain that reads as "sourdough" to a given palate hasn't been tested here.)*
+
+**A tested exception: enriched dough.** Two Well Bread full-swap bakes, one with an overnight retard and one with a 4-hour retard, were tasted by five people, and nobody could tell them apart. That's a small panel on one recipe, so it isn't a law. It does suggest that in a butter-and-egg dough raised with yeast alone, the long cold rest buys schedule flexibility but not much flavor, so a same-day schedule costs less than you'd expect. We haven't yet tasted either one against the levain version side by side. [Add that result here if you have it.]
 
 For why acid builds the way it does, and what pH has to do with it, see the [Four Levers guide](/guides/ph-flour-hydration).
 
@@ -146,6 +152,7 @@ The levain stays in the formula, so no flour or water moves, and there's no back
 | Loaf tastes flat and bland | The rise was too short, and there's no acid from a levain | Cut the yeast and lengthen the rise, try a poolish, or keep a little levain in the dough (Part 5) |
 | Laminated dough leaks butter in the oven | Over-proofed from too much yeast | Drop toward 1% and proof only until the layers look puffy, not doubled |
 | Everything is fine but it takes much longer than the table says | A cool kitchen, or a DDT at the low end | Don't chase the clock; use the aliquot jar and go by the dough |
+| A same-day enriched dough takes off in under 90 minutes and looks headed for over-proofed | Yeast dose a bit high for your kitchen temperature | It's usually recoverable if the dough has the butter and gluten to hold it (the 2.0% Well Bread did). Pull it to the refrigerator by the aliquot reading, and next time trim the yeast |
 
 ---
 
