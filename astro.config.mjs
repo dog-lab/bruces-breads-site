@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { satteri } from '@astrojs/markdown-satteri';
+import internalTrailingSlash from './plugins/rehype-internal-trailing-slash.mjs';
 
 // TinaCMS is deliberately *not* wired in here as an integration. Bruce's
 // Breads uses Tina in plain admin-form mode only (see tina/config.ts) --
@@ -28,4 +30,15 @@ export default defineConfig({
   site: 'https://www.bruces-breads.com', 
   integrations: [sitemap()],
   output: 'static',
+  // Canonical URL form is the trailing-slash one (/guides/braiding/). Matches
+  // the canonical tags, the sitemap and Cloudflare Pages' behavior, so Google
+  // sees one consistent form. Static files with extensions are unaffected.
+  trailingSlash: 'always',
+  markdown: {
+    // Astro 7's default Markdown processor is Sätteri, which doesn't take
+    // remark/rehype plugins. This appends a slash to internal links written
+    // without one in markdown bodies (the cause of Search Console's "Google
+    // chose different canonical").
+    processor: satteri({ hastPlugins: [internalTrailingSlash()] }),
+  },
 });
