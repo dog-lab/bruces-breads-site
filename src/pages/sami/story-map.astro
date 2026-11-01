@@ -42,7 +42,7 @@ import SamiLayout from '../../layouts/SamiLayout.astro';
       <h2>The Real Map</h2>
       <p class="map-caption">The big picture: an actual map of the United States, pinned with everywhere Sami has been. Click a pin to read that adventure.</p>
       <div class="real-map-card wide">
-        <svg class="us-map" viewBox="0 0 975 610" preserveAspectRatio="xMidYMid meet" overflow="hidden" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the United States with three pins: San Francisco, California; Mammoth Cave, Kentucky; and Georgia, where four of Sami's six adventures took place">
+        <svg class="us-map" viewBox="0 0 975 610" preserveAspectRatio="xMidYMid meet" overflow="hidden" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of the United States with three pins: San Francisco, California; Mammoth Cave, Kentucky; and Georgia, where five of Sami's seven adventures took place">
           <style>
             .us-map .pin-dot { fill: #d9503f; stroke: #ffffff; stroke-width: 3; transition: r 0.15s ease; }
             .us-map a.pin-link { cursor: pointer; }
@@ -65,7 +65,7 @@ import SamiLayout from '../../layouts/SamiLayout.astro';
 
           <a href="#georgia" class="pin-link">
             <circle class="pin-dot" cx="732.3" cy="423.9" r="11" />
-            <text font-family="'Trebuchet MS','Segoe UI',sans-serif" font-size="22" font-weight="700" x="750.3" y="431.9" text-anchor="start">Georgia (4 stops)</text>
+            <text font-family="'Trebuchet MS','Segoe UI',sans-serif" font-size="22" font-weight="700" x="750.3" y="431.9" text-anchor="start">Georgia (5 stops)</text>
           </a>
         </svg>
       </div>
@@ -73,9 +73,9 @@ import SamiLayout from '../../layouts/SamiLayout.astro';
 
     <div class="real-map-section" id="georgia">
       <h2>Georgia Up Close</h2>
-      <p class="map-caption">Four stops in Sami's home state, pinned on an actual map of Georgia. Click a pin to read that adventure.</p>
+      <p class="map-caption">Five stops in Sami's home state, pinned on an actual map of Georgia. Click a pin to read that adventure.</p>
       <div class="real-map-card">
-        <svg viewBox="0 0 600 700" preserveAspectRatio="xMidYMid meet" overflow="hidden" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of Georgia with four pins — Driftwood Beach, Tallulah Gorge, Ocmulgee Mounds, and the Saturday Farmers Market">
+        <svg viewBox="0 0 600 700" preserveAspectRatio="xMidYMid meet" overflow="hidden" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Map of Georgia with five pins — Driftwood Beach, Tallulah Gorge, Ocmulgee Mounds, Milledgeville, and the Saturday Farmers Market">
           <style>
             .pin-dot { fill: #d9503f; stroke: #ffffff; stroke-width: 2.5; transition: r 0.15s ease; }
             a.pin-link { cursor: pointer; }
@@ -88,6 +88,11 @@ import SamiLayout from '../../layouts/SamiLayout.astro';
           <a href="/sami/ocmulgee-mounds/" class="pin-link">
             <circle class="pin-dot" fill="#d9503f" stroke="#ffffff" stroke-width="2.5" cx="255.61" cy="331.57" r="9" />
             <text class="pin-label" fill="#5c4a37" font-family="'Trebuchet MS','Segoe UI',sans-serif" font-size="16" font-weight="700" x="270.61" y="336.57" text-anchor="start">Ocmulgee Mounds</text>
+          </a>
+
+          <a href="/sami/milledgeville-flour-riots/" class="pin-link">
+            <circle class="pin-dot" fill="#d9503f" stroke="#ffffff" stroke-width="2.5" cx="299" cy="303.6" r="9" />
+            <text class="pin-label" fill="#5c4a37" font-family="'Trebuchet MS','Segoe UI',sans-serif" font-size="16" font-weight="700" x="314" y="299" text-anchor="start">Milledgeville</text>
           </a>
 
           <a href="/sami/tallulah-gorge/" class="pin-link">
@@ -138,6 +143,12 @@ import SamiLayout from '../../layouts/SamiLayout.astro';
         <h3>Ocmulgee Mounds</h3>
         <p>Macon, GA — one very determined squirrel and a thousand years of proof he didn't see coming.</p>
         <a href="/sami/ocmulgee-mounds/" class="recipe-link">Read the adventure &rarr;</a>
+      </div>
+      <div class="stop-card">
+        <div class="pin">🌾</div>
+        <h3>Milledgeville</h3>
+        <p>Milledgeville, GA — a bacon riot, a flour riot, a few ghosts, and a nervous sandwich who really did stay away from Central State.</p>
+        <a href="/sami/milledgeville-flour-riots/" class="recipe-link">Read the adventure &rarr;</a>
       </div>
       <div class="stop-card">
         <div class="pin">🌷</div>
